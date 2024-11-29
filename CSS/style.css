@@ -100,9 +100,37 @@ header{
     transition: 0.4s;
 }
 .AboutUs{
-    height: 75vh;
+    height: 95vh;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+}
+.VideoAboutUs{
+    width: 75%;
+    height: 75vh;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    #Lighter{
+        height: 125vh;
+    }
+    .ListOfDevelopers{
+        flex-wrap: wrap;
+    }
+    .Developer{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px){
+    #Lighter{
+        height: 175vh;
+    }
+    .ListOfDevelopers{
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    .Developer{
+        width: 35%;
+        height: ;
+    }
 }
